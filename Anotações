@@ -1,0 +1,7 @@
+Para rodar varios projetos (aplicações) sem erro de portas: 
+
+src/main/resources -> application.properties --> insira: 
+
+server.port=${port:8081}
+
+Neste caso, estamos definindo porta 8081 para esta aplicação. 
